@@ -15,10 +15,41 @@
     <div id="profile">
       <form>
         <div id="center">Preferences</div><hr>
-        <input type="text" name="zip" placeholder="60606" class="input">Nearby
-        <input type="checkbox" >
+        <input type="text" name="zip" placeholder="60606" class="input">
+        <input list="radius" name="radius" class="input" id="radiu1s">
+      <datalist id="radius">
+        <option value="<5 miles">
+        <option value="5-10 miles">
+        <option value="10+ miles">
+      </datalist>Nearby
+        <input type="checkbox" class="leftBox" >
         <hr>
-        <input type="checkbox" >Survivor<input type="checkbox" >Co-Sruvivor
+        <div id="rrr">Survivor*
+        <input type="checkbox" id="rightBox"></div>
+        <hr>
+        <div id="lll">
+        Co-Survivor*
+        <input type="checkbox" class="leftBox">
+        </div>
+        <hr>
+        Gender
+      <br>
+      <input list="gender1" name="gender1" class="input">
+      <datalist id="gender1">
+        <option value="Male">
+        <option value="Female">
+        <option value="Other">
+      </datalist><br>
+      Age Range
+      <br>
+      <input list="ageRange" name="ageRange" class="input">
+      <datalist id="ageRange">
+        <option value="13-18">
+        <option value="19-25">
+        <option value="26-45">
+        <option value="45+">
+      </datalist><br>
+        <div class="center"><input type="submit" value="Submit" id="submit"></div>
       </form>
     </div>
     <div id="bot">
