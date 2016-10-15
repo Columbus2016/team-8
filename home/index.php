@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+  <body>
+
+  </body>
+
+</html>
