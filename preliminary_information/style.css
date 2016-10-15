@@ -32,12 +32,13 @@ body{
   bottom: 0;
   background-color: #E877AF;
   color: white;
-  font-size: 6em;
+  font-size: 2em;
   padding: 4%;
   width: 100%;
   right:0;
   padding-right: 0%;
   text-align: center;
+  border: 0;
 }
 
 img{
