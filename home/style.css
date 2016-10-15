@@ -38,3 +38,8 @@ html, body {
   padding: 3%;
   color: #666666;
 }
+
+#icon {
+  width:30px;
+  float: right;
+}

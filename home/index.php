@@ -12,12 +12,12 @@
     <div id="top">
       Profile
     </div>
-    <div id="profile">Alex McCormick<br><hr> Inflammatory Breast Cancer<br><hr>03/2013<br><hr>Female<br><hr>26-45<br><hr>Bio:</div>
+    <div id="profile">Alex McCormick<img src="../resources/icon/editicon.png" id="icon"><br><hr> Inflammatory Breast Cancer<img src="../resources/icon/editicon.png" id="icon"><br><hr>From: 03/2013<img src="../resources/icon/editicon.png" id="icon"><br><hr>Female<img src="../resources/icon/editicon.png" id="icon"><br><hr>26-45<img src="../resources/icon/editicon.png" id="icon"><br><hr>Bio:<img src="../resources/icon/editicon.png" id="icon"></div>
     <div id="bot">
     <div class="buttons" id="left">
       Conversation
     </div>
-    <div class="buttons" id="right">
+      <div class="buttons" id="right">
       Information
     </div>
     </div>
