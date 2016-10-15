@@ -21,7 +21,7 @@
       Login
     </div>
     <div id="hide">
-      <form>
+      <form name="selection" action="selection/index.php" method="post">
         Register
         <br>
         <hr>

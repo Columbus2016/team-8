@@ -8,7 +8,7 @@
 </head>
   <body>
     <div id="logo"><img src="../resources/logo/logo.png"></div>
-    <form action="action_page.php" id="attributes">
+    <form name="home" action="../home/index.php" method="post" >
       Diagnosis Date:<br>
       <input type="text" name="ddate" placeholder="MM/YYYY" class="input">
       <br>

@@ -12,7 +12,15 @@
     <div id="top">
       Conversations
     </div>
-    <div id="profile"></div>
+    <div id="profile">
+      <form>
+        <div id="center">Preferences</div><hr>
+        <input type="text" name="zip" placeholder="60606" class="input">Nearby
+        <input type="checkbox" >
+        <hr>
+        <input type="checkbox" >Survivor<input type="checkbox" >Co-Sruvivor
+      </form>
+    </div>
     <div id="bot">
     <div class="buttons" id="left" onclick="location.href='../home/index.php';" style="cursor:pointer;">
       Profile

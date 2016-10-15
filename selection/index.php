@@ -23,6 +23,64 @@
     <div id="submit" onclick="location.href='../home/index.php';" style="cursor:pointer;">
       Submit
     </div>
+<?php
+
+		// Address error handling
+
+		ini_set('display_errors',1);
+		error_reporting(E_ALL & ~E_NOTICE);
+
+		//Attempt to Connect
+
+		if ($connection = @mysql_connect('localhost', 'root', 'password')){
+			//print '<p>Successfully connected to MySQL.</p>';
+			
+		}
+		else {
+			die('<p>Could not connect to MySQL because: <b>' .mysql_error() .
+			'</b></p>');
+		}
+		if (@mysql_select_db("CodeForGood8", $connection)){
+			//print '<p>The CodeForGood8 database has been selected.</p>';
+		}
+		else {
+			die('<p>Could not select the CodeForGood8 database because: <b>' .mysql_error().'</b></p>');
+		}
+
+
+
+	  $fullname=$_POST['fullname'];
+	  $email=$_POST['email'];
+	  $password=$_POST['password'];	
+	  $selection = null;	  
+	  $age_group = null;
+	  $gender = null;
+	  $zip = null;
+	  $date = null;
+	  $type = null;
+	  $share = null;
+	  
+	  	$q = "SELECT EMAIL FROM Users WHERE EMAIL='$email'";
+		$check = mysql_query($q);
+		
+		if( mysql_affected_rows() == 0){
+			$sql="INSERT INTO Users(EMAIL, PASSWORD, NAME, AGE_GROUP, GENDER, ZIP, DDATE, TYPE, SHARE, SELECTION)VALUES('$email', '$password', '$fullname', '$age_group', '$gender', '$zip', '$date', '$type', '$share', '$selection')";
+			$result=mysql_query($sql) or die(mysql_error());
+
+			// if successfully insert data into database, displays message "Successful". 
+			if($result){
+				//print "<br />GOOD<br />";
+			}
+			else {
+				print "<br />ERROR 1<br />";
+			}
+		}
+		else{
+			print "<br />ERROR 2<br />";
+		}
+				
+		  	  
+?>
 
   </body>
   <script>
