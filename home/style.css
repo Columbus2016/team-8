@@ -1,0 +1,34 @@
+body {
+  background-color:#FDEFF7;
+  font-size: 42pt;
+  font-family: 'Open Sans', sans-serif;
+}
+html, body {
+  padding: 0;
+  margin: 0;
+}
+#top {
+  width: 100%;
+  background-color: #E877AF;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: white;
+}
+.buttons {
+  width: 100%;
+  background-color: #E877AF;
+  text-align: center;
+  color: white;
+  padding-top: 35%;
+  padding-bottom: 35%;
+
+}
+
+#left {
+  background-color: #FDEFF7;
+  color: black;
+}
+#right{
+  bottom: 0;
+}
