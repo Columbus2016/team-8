@@ -17,16 +17,11 @@
       
       <input list="types" name="types">
       <datalist id="types">
-        <option value="Noninvasive (in situ) breast cancer">
-        <option value="Invasive (infiltrating) breast cancer">
-        <option value="Invasive ductal carcinoma (IDC)">
-        <option value="Invasive lobular carcinoma (ILC)">
-        <option value="Ductal carcinoma in situ (DCIS)">
-        <option value="Invasive ductal carcinoma (IDC)">
-        <option value="Lobular carcinoma in situ (LCIS)">
-        <option value="Invasive lobular carcinoma (ILC)">
-        <option value="Inflammatory breast cancer">
-        <option value="Metastatic breast cancer">
+        <option value="Triple Negative Breast Cancer">
+        <option value="HER2-positive breast cancer">
+        <option value="Inflammatory Breast Cancer">
+        <option value="Metastatic Breast Cancer">
+
       </datalist><br>
       
       <input type="submit" value="Submit">
