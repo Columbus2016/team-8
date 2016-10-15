@@ -7,10 +7,9 @@
 </head>
   <body>
     <div><img src="../resources/logo/logo.png"></div>
-    <div id="am">I am:</div>
-    <br>
+
     <hr>
-    <br>
+
     <a onclick="click1()"><div class="buttons" id="survivor">
       Survivor
     </div></a>
