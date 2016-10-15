@@ -20,7 +20,7 @@
     <div class="buttons" id="living" onclick="click3()">
       Living with Metastatic Disease
     </div>
-    <div id="submit">
+    <div id="submit" onclick="location.href='../home/index.php';" style="cursor:pointer;">
       Submit
     </div>
 
