@@ -29,7 +29,12 @@
         <hr>
         <div id="lll">
         Co-Survivor *
+          
         <input type="checkbox" class="leftBox">
+          <hr>
+        <div id="rrr">Metastatic *
+        <input type="checkbox" id="rightBox"></div>
+
         </div>
         <hr>
         Gender
@@ -61,12 +66,12 @@
       </div>
       <div class="match">
         Jacky|Survivor|Female|45+ <img src="../resources/icon/chaticon.png" width="65px"><br>
-        <i>Favorite hobbies include painting </i>
+        <i>I enjoy biking and camping </i>
         <hr>
       </div>
       <div class="match">
         Kate|Co-Survivor|Female|18-25 <img src="../resources/icon/chaticon.png" width="65px"><br>
-        <i>Favorite hobbies include painting </i>
+        <i>Prefer to stay indoors and read books</i>
         <hr>
       </div>
     </div>

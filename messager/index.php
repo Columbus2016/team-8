@@ -15,8 +15,12 @@
       <div class="test1" id="m4">Me too. So glad that I was able to meet someone like you.</div>
       
     </div>
-    <div id="textfield" onclick="show()"><input type="text" placeholder="..." id="inp">
-     <img src="../resources/icon/sendicon.png" width="80px"></div>
+    <div id="textfield">
+         
+         <input type="text" placeholder="..." id="inp">
+    
+    <div id="test" onclick="show()">send
+    <img src="../resources/icon/sendicon.png" width="80px"></div></div>
   </body>
   <script>
 

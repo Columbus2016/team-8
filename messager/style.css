@@ -77,3 +77,7 @@ font-size:40px;
 #pass {
   font-size: 15px;
 }
+
+#m1 {
+  display: none;
+}
