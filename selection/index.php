@@ -3,12 +3,13 @@
 <head>
   <title>User Information</title>
   <link rel="stylesheet" href="style.css">
-
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 
   <body>
+    <div>I am...</div>
     <div>
-      Survivor
+      A Survivor
     </div>
     <div>
       Co-Survivor
