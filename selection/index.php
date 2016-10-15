@@ -5,7 +5,6 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
-
   <body>
     <div><img src="../resources/logo/logo.png"></div>
     <div id="am">I am:</div>
