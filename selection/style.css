@@ -1,7 +1,28 @@
 body{
-  font-family: 'Open Sans', sans-serif;
-  background-color: #FDEFF7;
+   font-family: 'Open Sans', sans-serif;
+   background-color: #FDEFF7;
+
+   padding: 5%;
+   padding-top: 15%;
+  text-align: center;
+ }
+#am {
+  font-size: 6em;
+}
+.buttons {
+  font-size: 5em;
+  width: 75%;
+  height: 25%;
+  background-color: white;
+  margin: auto;
+  margin-top: 2%;
+}
+#submit {
+  position: absolute;
+  bottom: 0;
+}
+#living {
+  text-align: center;
+  padding-top: 4%;
   font-size: 3em;
-  padding: 5%;
-  padding-top: 15%;
 }

@@ -3,19 +3,25 @@
 <head>
   <title>User Information</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
 </head>
 
   <body>
-    <div>I am...</div>
-    <div>
-      A Survivor
+    <div id="am">I am:</div>
+    <br>
+    <hr>
+    <br>
+    <div class="buttons">
+      Survivor
     </div>
-    <div>
+    <div class="buttons">
       Co-Survivor
     </div>
-    <div>
+    <div class="buttons" id="living">
       Living With Metastatic Disease
+    </div>
+    <div id="submit">
+      Submit
     </div>
 
   </body>
