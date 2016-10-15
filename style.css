@@ -8,7 +8,11 @@ body{
   bottom: 0;
   
 }
-
+.input {
+  font-size: 3em;
+  width: 100%;
+  text-align: center;
+}
 #submit{
   text-align: center;
   font-size: 3em;
@@ -45,6 +49,8 @@ body{
 
 #hide {
   display: none;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 .fullscreen-bg {
@@ -82,3 +88,8 @@ body{
 
 
 
+
+#submitbtn {
+  color: white;
+  font-size: 2em;
+}

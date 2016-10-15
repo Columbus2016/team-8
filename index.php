@@ -21,23 +21,20 @@
       Login
     </div>
     <div id="hide">
-      <div>
+      <form>
         Register
         <br>
         <hr>
         Name
-        <br><input type="text"><br>
+        <br>
+        <input type="text" name="fullname" placeholder="Alex" class="input"><br>
         Email
-        <br><input type="text"><br>
+        <br><input type="text" name="email" placeholder="email" class="input"><br>
         password
-        <br><input type="text"><br>
+        <br><input type="password" name="password" placeholder="password" class="input"><br>
         confirm
-        <br><input type="text"><br>
-        <div id="submit">Submit</div>
-        
-      </div>
-      <form>
-      
+        <br><input type="password" name="confirm" placeholder="password" class="input"><br>
+        <input type="submit" value="Submit" id="submitbtn">
       </form>
     </div>
   </body>
