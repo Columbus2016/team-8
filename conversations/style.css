@@ -2,19 +2,44 @@ body {
   background-color:#FDEFF7;
   font-size: 42pt;
   font-family: 'Open Sans', sans-serif;
+  height: 100%;
 }
 html, body {
   padding: 0;
   margin: 0;
 }
-#back {
-  width:10%;
-}
 #top {
-  width: 90%;
+  width: 100%;
   background-color: #E877AF;
   text-align: center;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   color: white;
+}
+.buttons {
+  width: 100%;
+  background-color: #E877AF;
+  text-align: center;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top:1px; 
+
+}
+
+
+#bot {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+#profile {
+  padding: 3%;
+  color: #666666;
+}
+
+#icon {
+  width:30px;
+  float: right;
 }
