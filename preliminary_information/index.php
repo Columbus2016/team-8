@@ -28,6 +28,15 @@
         <option value="Female">
         <option value="Other">
       </datalist><br>
+      Age Range
+      <br>
+      <input list="ageRange" name="ageRange" class="input">
+      <datalist id="ageRange">
+        <option value="13-18">
+        <option value="19-25">
+        <option value="26-45">
+        <option value="45+">
+      </datalist><br>
       
       <input type="submit" value="Submit" id="submit">
       
