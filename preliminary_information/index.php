@@ -10,11 +10,11 @@
     <div id="logo"><img src="../resources/logo/logo.png"></div>
     <form name="home" action="../home/index.php" method="post" >
       Diagnosis Date:<br>
-      <input type="text" name="ddate" placeholder="MM/YYYY" class="input">
+      <input type="text" name="ddate" placeholder="mm/yyyy" class="input">
       <br>
       Cancer Type
       <br>
-      <input list="types" name="types" class="input">
+      <input list="types" name="types" class="input" placeholder="options below...">
       <datalist id="types">
         <option value="Triple Negative Breast Cancer">
         <option value="HER2-positive breast cancer">
@@ -23,7 +23,7 @@
       </datalist><br>
       Gender
       <br>
-      <input list="gender1" name="gender1" class="input">
+      <input list="gender1" name="gender1" class="input" placeholder="options below..">
       <datalist id="gender1">
         <option value="Male">
         <option value="Female">
@@ -31,7 +31,7 @@
       </datalist><br>
       Age Range
       <br>
-      <input list="ageRange" name="ageRange" class="input">
+      <input list="ageRange" name="ageRange" class="input" placeholder="options below..">
       <datalist id="ageRange">
         <option value="13-18">
         <option value="19-25">

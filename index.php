@@ -22,18 +22,21 @@
     </div>
     <div id="hide">
       <form name="selection" action="selection/index.php" method="post">
-        Register
+        <span id="spans">Register</span>
         <br>
         <hr>
         Name
         <br>
         <input type="text" name="fullname" placeholder="Alex" class="input"><br>
+        Phone
+        <br><input type="text" name="phone" placeholder="(XXX)XXX-XXXX" class="input"><br>
+        
         Email
-        <br><input type="text" name="email" placeholder="email" class="input"><br>
-        password
-        <br><input type="password" name="password" placeholder="password" class="input"><br>
-        confirm
-        <br><input type="password" name="confirm" placeholder="password" class="input"><br>
+        <br><input type="text" name="email" placeholder="Email" class="input"><br>
+        Password
+        <br><input type="password" name="password" placeholder="Password" class="input"><br>
+        Confirm Password
+        <br><input type="password" name="confirm" placeholder="Password" class="input"><br>
         <input type="submit" value="Submit" id="submitbtn">
       </form>
     </div>

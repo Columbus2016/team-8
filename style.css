@@ -1,32 +1,38 @@
 body{
   font-family: 'Open Sans', sans-serif;
-  padding-top: 15%;
+  padding-top: 23%;
+  font-size: 40pt;
 }
 .show {
   background-color: #FDEFF7;
   position: absolute;
   bottom: 0;
+  font-size: 40pt;
   
 }
 .input {
-  font-size: 3em;
+  height: 100px;
+  font-size: 30pt;
   width: 100%;
   text-align: center;
 }
 #submit{
   text-align: center;
-  font-size: 3em;
+
   font-family: 'Open Sans', sans-serif;
   opacity: 1;
   height: 6%;
   background-color: #E877AF;
   opacity: 1;
 }
+#spans {
+  font-size: 60pt;
+}
 
 #left, #right {
   text-align: center;
   padding-top: 4%;
-  font-size: 3em;
+
   font-family: 'Open Sans', sans-serif;
   opacity: 1;
 }
@@ -51,6 +57,8 @@ body{
   display: none;
   padding-left: 4%;
   padding-right: 4%;
+  padding-top: 4%;
+  padding-bottom: 5%;
 }
 
 .fullscreen-bg {
@@ -80,7 +88,6 @@ body{
   height: 75%;
   width: 75%;
   margin: auto;
-  font-size: 3em;
   color: white;
   text-align: center;
 }
@@ -91,5 +98,6 @@ body{
 
 #submitbtn {
   color: white;
-  font-size: 2em;
+  font-size: 40pt;
+  margin-top: 40px;
 }
