@@ -17,7 +17,7 @@
     <a onclick="hideshow()"><div class="show" id="left">
       Register
       </div></a>
-    <div class="show" id="right">
+    <div class="show" id="right" onclick="location.href='../login/index.php';" style="cursor:pointer;">
       Login
     </div>
     <div id="hide">
