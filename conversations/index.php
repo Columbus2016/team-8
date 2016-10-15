@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Home</title>
-  <link rel="stylesheet" href="conversations/style.css">
+  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="icon" type="image/png" href="../resources/logo/logo.png"/>
 </head>
@@ -55,7 +55,7 @@
     </div>
     <div id="matches">
       <div class="match">
-        Megan|Survivor|Female|26-45<img src="../resources/icon/chaticon.png" width="65px"><br>
+        Megan|Survivor|Female|26-45<a href="../messager/index.php"><img src="../resources/icon/chaticon.png" width="65px"></a><br>
         <i>Favorite hobbies include painting </i>
         <hr>
       </div>
