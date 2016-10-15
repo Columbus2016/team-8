@@ -27,7 +27,7 @@
         <hr>
         Name
         <br>
-        <input type="text" name="fullname" placeholder="Alex" class="input"><br>
+        <input type="text" name="fullname" placeholder="Name" class="input"><br>
         Phone
         <br><input type="text" name="phone" placeholder="(XXX)XXX-XXXX" class="input"><br>
         

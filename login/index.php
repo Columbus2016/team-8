@@ -22,9 +22,9 @@
       <form name="selection" action="selection/index.php" method="post">
         
         Email
-        <br><input type="text" name="email" placeholder="email" class="input"><br>
+        <br><input type="text" name="email" placeholder="Email" class="input"><br>
         Password
-        <br><input type="password" name="password" placeholder="password" class="input"><br>
+        <br><input type="password" name="password" placeholder="Password" class="input"><br>
         <p id="small">reset password</p>
         
       </form>

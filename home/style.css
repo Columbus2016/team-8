@@ -1,6 +1,6 @@
 body {
   background-color:#FDEFF7;
-  font-size: 42pt;
+  font-size: 40pt;
   font-family: 'Open Sans', sans-serif;
   height: 100%;
 }
@@ -12,8 +12,8 @@ html, body {
   width: 100%;
   background-color: #E877AF;
   text-align: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 4%;
+  padding-bottom: 4%;
   color: white;
 }
 .buttons {
@@ -21,8 +21,8 @@ html, body {
   background-color: #E877AF;
   text-align: center;
   color: white;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   margin-top:1px; 
 
 }
