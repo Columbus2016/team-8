@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>User Information</title>
-  <link rel="stylesheet" href="selection.css">
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
