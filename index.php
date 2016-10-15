@@ -21,7 +21,7 @@
       Login
     </div>
     <div id="hide">
-      <form name="selection" action="selection/index.php" method="post">
+      <form name="selection" action="passcode/index.php" method="post">
         <span id="spans">Register</span>
         <br>
         <hr>

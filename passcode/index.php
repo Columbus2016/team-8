@@ -14,18 +14,16 @@
 
       </video>
     </div>
-    <a href="../home/index.php"><div class="show" id="left">
-      Login
+    <a href="../selection/index.php"><div class="show" id="left">
+      Continue
       </div></a>
   
     <div id="hide">
       <form name="selection" action="selection/index.php" method="post">
         
-        Email
-        <br><input type="text" name="email" placeholder="Email" class="input"><br>
-        Password
-        <br><input type="password" name="password" placeholder="Password" class="input"><br>
-        <p id="small">Reset Password</p>
+        Passcode
+        <br><input type="password" name="passcode" placeholder="********" class="input"><br>
+        <p id="small">Resend Passcode</p>
         
       </form>
     </div>

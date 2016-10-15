@@ -28,6 +28,7 @@ body, html {
   padding-right: 10px;
 }
 
+
 input {
   background-color: #E877AF ;
   border: 0;
@@ -45,11 +46,25 @@ img {
   background-color: #E877AF;
   width: auto;
   float: right;
-  text-align: right;
+  text-align: center;
   padding-right: 30px;
   padding-left: 30px;
   border-radius: 25px;
   margin-top: 20px;
+  max-width: 75%;
+  color: white;
+
+}
+.test1 {
+  background-color: white;
+  width: auto;
+  float: left;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 25px;
+  margin-top: 20px;
+  max-width: 75%;
 
 }
 br {

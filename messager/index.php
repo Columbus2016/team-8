@@ -8,31 +8,22 @@
 </head>
   <body>
     <div id="header">Megan</div>
-    <div id="chatbox"></div>
-    <div id="textfield"><div onclick="create()"><input type="text" placeholder="..." id="inp" ><img src="../resources/icon/sendicon.png" width="90px"></div></div>
+    <div id="chatbox">
+    <div class="test" id="m1">Hey, Megan how was your appointment today?</div>
+      <div class="test1" id="m2">Good! Everything has been going much better lately.</div>
+      <div class="test" id="m3">Im glad to hear that Megan!</div>
+      <div class="test1" id="m4">Me too. So glad that I was able to meet someone like you.</div>
+      
+    </div>
+    <div id="textfield" onclick="show()"><input type="text" placeholder="..." id="inp">
+     <img src="../resources/icon/sendicon.png" width="80px"></div>
   </body>
   <script>
-  function create() {
-    var msg = document.getElementById("inp").value;
-    document.getElementById("chatbox").innerHTML += "<div class=\"outer\"><div class=\"test\">"+ msg+"</div></div><br>";
-    document.getElementById("inp").value = "";
-  }
-    function create1() {
-      var msg = document.getElementById("inp").value;
-      var elm = document.getElementById("chatbox");
-      var newElement = document.createElement('div');
-      newElement.setAttribute("class", "test");
-      newElement.textContent= msg;
-      elm.appendChild(newElement);
-      document.getElementById("inp").value = "";
+
+    function show() {
+
+        document.getElementById("m1").display="block";
 
     }
-    document.getElementById('inp').onkeypress = function(e) {
-    if(e.keyCode == 13) {
-      var msg = document.getElementById("inp").value;
-    document.getElementById("chatbox").innerHTML += "<div class=\"outer\"><div class=\"test\">"+ msg+"</div></div><br>";
-    document.getElementById("inp").value = "";
-    }
-}
   </script>
 </html>
