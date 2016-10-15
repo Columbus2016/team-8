@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Home</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="conversations/style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="icon" type="image/png" href="../resources/logo/logo.png"/>
 </head>
@@ -24,11 +24,11 @@
       </datalist>Nearby
         <input type="checkbox" class="leftBox" >
         <hr>
-        <div id="rrr">Survivor*
+        <div id="rrr">Survivor *
         <input type="checkbox" id="rightBox"></div>
         <hr>
         <div id="lll">
-        Co-Survivor*
+        Co-Survivor *
         <input type="checkbox" class="leftBox">
         </div>
         <hr>
@@ -48,13 +48,24 @@
         <option value="19-25">
         <option value="26-45">
         <option value="45+">
+          <option value="any">
       </datalist><br>
         <div class="center"><input type="button" value="Submit" id="submit" onclick="hideshow()"></div>
       </form>
     </div>
     <div id="matches">
-      <div class="match"><img src="../resources/icon/"
-        Megan|Survivor|Female|26-45<br>
+      <div class="match">
+        Megan|Survivor|Female|26-45<img src="../resources/icon/chaticon.png" width="65px"><br>
+        <i>Favorite hobbies include painting </i>
+        <hr>
+      </div>
+      <div class="match">
+        Jacky|Survivor|Female|45+ <img src="../resources/icon/chaticon.png" width="65px"><br>
+        <i>Favorite hobbies include painting </i>
+        <hr>
+      </div>
+      <div class="match">
+        Kate|Co-Survivor|Female|18-25 <img src="../resources/icon/chaticon.png" width="65px"><br>
         <i>Favorite hobbies include painting </i>
         <hr>
       </div>
