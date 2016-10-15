@@ -1,7 +1,9 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>User Information</title>
+  <title>User Information</title>
+  <link rel="stylesheet" href="selection.css">
+
 </head>
 
   <body>
