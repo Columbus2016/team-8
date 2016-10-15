@@ -22,17 +22,22 @@
     </div>
     <div id="hide">
       <div>
-        sign-up
+        Register
+        <br>
+        <hr>
+        Name
+        <br><input type="text"><br>
+        Email
+        <br><input type="text"><br>
+        password
+        <br><input type="text"><br>
+        confirm
+        <br><input type="text"><br>
+        <div id="submit">Submit</div>
+        
       </div>
       <form>
-      <!-- This is where you guys to php
-        Name
-        age range
-        email
-        password
-        confirm
-        Gender
-      -->
+      
       </form>
     </div>
   </body>
