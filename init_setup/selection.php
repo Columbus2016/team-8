@@ -4,8 +4,14 @@
 <title>User Information</title>
 </head>
 
-<body>
-The content of the document......
-</body>
+  <body>
+    <div>
+      Survivor
+    </div>
+    <div>
+      Co-Survivor
+    </div>
+
+  </body>
 
 </html>
