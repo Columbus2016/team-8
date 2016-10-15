@@ -3,7 +3,7 @@ body{
    background-color: #FDEFF7;
 
    padding: 5%;
-   padding-top: 15%;
+   padding-top: 7%;
   text-align: center;
  }
 #am {
@@ -16,13 +16,24 @@ body{
   background-color: white;
   margin: auto;
   margin-top: 2%;
+  padding: 8%;
 }
 #submit {
   position: absolute;
   bottom: 0;
+  background-color: #E877AF;
+  color: white;
+  font-size: 6em;
+  padding: 4%;
+  width: 100%;
+  right:0;
+  padding-right: 0%;
+  text-align: center;
 }
 #living {
   text-align: center;
-  padding-top: 4%;
-  font-size: 3em;
+  padding-top: 6%;
+  font-size: 3.5em;
+  padding-bottom: 6%;
+  
 }
