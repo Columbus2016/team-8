@@ -49,8 +49,15 @@
         <option value="26-45">
         <option value="45+">
       </datalist><br>
-        <div class="center"><input type="submit" value="Submit" id="submit"></div>
+        <div class="center"><input type="button" value="Submit" id="submit" onclick="hideshow()"></div>
       </form>
+    </div>
+    <div id="matches">
+      <div class="match"><img src="../resources/icon/"
+        Megan|Survivor|Female|26-45<br>
+        <i>Favorite hobbies include painting </i>
+        <hr>
+      </div>
     </div>
     <div id="bot">
     <div class="buttons" id="left" onclick="location.href='../home/index.php';" style="cursor:pointer;">
@@ -61,5 +68,10 @@
     </div>
     </div>
   </body>
-
+  <script>
+  function hideshow() {
+    document.getElementById("profile").style.display="none";
+    document.getElementById("matches").style.display="block";
+  }
+  </script>
 </html>
