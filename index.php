@@ -4,8 +4,8 @@
   <title>Welcome</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="icon" type="image/png" href="../resources/logo/logo.png"/>
 </head>
-
   <body>
     <div class="fullscreen-bg">
       <video loop muted autoplay poster="resources/video/WelcomeVideo.JPG" class="fullscreen-bg__video">
